@@ -9,6 +9,10 @@ body {
     rgba(155, 226, 192, 0.7),
     rgba(125, 164, 227, 1)
   );
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
 }
 
 h1,
