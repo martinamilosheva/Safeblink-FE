@@ -223,46 +223,48 @@
             <span class="circle"><i class="fas fa-circle"></i></span>
           </div>
         </div>
-        <!--- filter buttons  --->
-        <div
-          class="button-filters d-flex flex-wrap justify-content-center mb-4"
-          id="filters"
-        >
-          <button
-            id="most-watched-filter"
-            class="btn filter-btn inactive-filter active"
-            data-category="most-watched"
+         <!--- filter buttons  --->
+        <div class="filter-scroll-wrapper">
+          <div
+            class="button-filters d-flex flex-nowrap justify-content-center mb-4"
+            id="filters"
           >
-            Најгледани
-          </button>
-          <button
-            id="actual-category-filter"
-            class="btn filter-btn inactive-filter active"
-            data-category="actual"
-          >
-            Aктуелно
-          </button>
-          <button
-            id="lorem-filter"
-            class="btn filter-btn inactive-filter active"
-            data-category="lorem"
-          >
-            Лорем
-          </button>
-          <button
-            id="internet-videos-filter"
-            class="btn filter-btn inactive-filter active"
-            data-category="internet-videos"
-          >
-            Интернет видеа
-          </button>
-          <button
-            id="privacy-filter"
-            class="btn filter-btn inactive-filter active"
-            data-category="privacy"
-          >
-            Приватност
-          </button>
+            <button
+              id="most-watched-filter"
+              class="btn filter-btn inactive-filter active"
+              data-category="most-watched"
+            >
+              Најгледани
+            </button>
+            <button
+              id="actual-category-filter"
+              class="btn filter-btn inactive-filter active"
+              data-category="actual"
+            >
+              Aктуелно
+            </button>
+            <button
+              id="lorem-filter"
+              class="btn filter-btn inactive-filter active"
+              data-category="lorem"
+            >
+              Лорем
+            </button>
+            <button
+              id="internet-videos-filter"
+              class="btn filter-btn inactive-filter active"
+              data-category="internet-videos"
+            >
+              Интернет видеа
+            </button>
+            <button
+              id="privacy-filter"
+              class="btn filter-btn inactive-filter active"
+              data-category="privacy"
+            >
+              Приватност
+            </button>
+          </div>
         </div>
         <!--- cards-container loaded dynamically --->
         <div class="row" id="cards-container"></div>

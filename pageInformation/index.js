@@ -95,7 +95,7 @@ export const renderCards = () => {
           <div class="custom-card-body d-flex flex-column gap-2">
             <h5 class="card-info-title">${card.title}</h5>
             <p class="card-text">${card.description}</p>
-            <p class="text-secondary">${card.publishDate}</p>
+            <p class="text-muted">${card.publishDate}</p>
           </div>
         </div>
       </div>

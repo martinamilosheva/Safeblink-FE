@@ -111,10 +111,9 @@ Discussions are stored in session storage and remain visible after reloading the
 If a non-existent hash path is visited, a custom 404 page with a Lottie animation is shown.
  
 
-
 ## DEMO
 OR check out the live demo:
-
+https://safeblink-martinamilosheva.netlify.app/index.html#safeblink
 
 
 ## Credits 

@@ -137,6 +137,15 @@
   color: rgba(66, 53, 107, 1);
 }
 
+.filter-scroll-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#filters {
+  gap: 0.5rem;
+}
+
 /* --------- RESPONSIVE STYLES INFORMATION PAGE ----------- */
 @media (max-width: 767px) {
   .carousel-container {
@@ -172,6 +181,20 @@
     justify-content: center;
     align-items: baseline;
     gap: 10px;
+  }
+
+   .filter-scroll-wrapper {
+    padding: 0 1rem;
+  }
+
+  #filters {
+    flex-wrap: nowrap !important;
+    width: fit-content;
+  }
+
+  .filter-btn {
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 }
 
